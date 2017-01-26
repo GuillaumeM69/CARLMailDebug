@@ -1,0 +1,23 @@
+{
+  "name": "carlmaildebug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeM69/CARLMailDebug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeM69/CARLMailDebug/issues"
+  },
+  "homepage": "https://github.com/GuillaumeM69/CARLMailDebug#readme",
+  "dependencies": {
+    "maildev": "github:guillaumem69/MailDev",
+    "node-windows": "github:guillaumem69/node-windows"
+  }
+}
