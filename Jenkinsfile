@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('First Step') {
       steps {
         sh 'ls -lisa'
+        sh 'java -version'
       }
     }
   }
