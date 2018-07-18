@@ -5,10 +5,10 @@ pipeline {
       steps {
         sh 'ls -lisa'
         sh 'java -version'
-        sh 'ping 8.8.8.8'
+        sh 'curl http://google.fr'
       }
     }
-    stage('') {
+    stage('error') {
       steps {
         archiveArtifacts(allowEmptyArchive: true, onlyIfSuccessful: true, artifacts: '*')
       }
