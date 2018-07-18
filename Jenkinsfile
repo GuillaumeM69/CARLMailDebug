@@ -7,5 +7,10 @@ pipeline {
         sh 'java -version'
       }
     }
+    stage('') {
+      steps {
+        archiveArtifacts(allowEmptyArchive: true, onlyIfSuccessful: true, artifacts: '*')
+      }
+    }
   }
 }
